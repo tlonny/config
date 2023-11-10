@@ -1,4 +1,4 @@
-function lua_ls_config()
+local function lua_ls_config()
     return {
         settings = {
             Lua = {
@@ -16,7 +16,6 @@ return {
     config = function()
         local lsp = require("lspconfig")
         lsp.pyright.setup({})
-        lsp.jdtls.setup({})
         lsp.lua_ls.setup(lua_ls_config())
     end
 }
