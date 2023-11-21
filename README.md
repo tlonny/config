@@ -1,4 +1,4 @@
-# Dotfiles by _tlonny_
+# A sensible Neovim config
 
 ### Installation
 
