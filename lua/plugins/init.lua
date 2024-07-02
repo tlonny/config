@@ -1,7 +1,6 @@
 require("util/bootstrap")
 
 require("lazy").setup({
-    require("plugins/bufferline"),
     require("plugins/cmp"),
     require("plugins/copilot"),
     require("plugins/copilot-cmp"),
@@ -13,5 +12,4 @@ require("lazy").setup({
     require("plugins/nvimtree"),
     require("plugins/telescope"),
     require("plugins/treesitter"),
-    require("plugins/trouble"),
 })

@@ -4,7 +4,6 @@ require("util/mappings").load_mappings({
     require("mappings/buffers"),
     require("mappings/misc"),
     require("mappings/quickfix"),
-    require("mappings/trouble"),
     require("mappings/telescope"),
     require("mappings/lsp"),
 })
