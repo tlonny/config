@@ -2,8 +2,6 @@ require("util/bootstrap")
 
 require("lazy").setup({
     require("plugins/cmp"),
-    require("plugins/copilot"),
-    require("plugins/copilot-cmp"),
     require("plugins/nvim-jdtls"),
     require("plugins/catppuccin"),
     require("plugins/lspconfig"),

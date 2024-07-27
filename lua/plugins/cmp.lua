@@ -22,7 +22,6 @@ return {
             }),
             sources = cmp.config.sources({
                 { name = "nvim_lsp" },
-                { name = "copilot" },
                 { name = "buffer" },
                 { name = "nvim_lua" },
                 { name = "path" },
@@ -32,7 +31,6 @@ return {
     dependencies = {
         "L3MON4D3/LuaSnip",
         "saadparwaiz1/cmp_luasnip",
-        "hrsh7th/cmp-nvim-lsp",
-        "zbirenbaum/copilot-cmp",
+        "hrsh7th/cmp-nvim-lsp"
     }
 }
