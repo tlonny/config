@@ -16,6 +16,8 @@ return {
     config = function()
         local lsp = require("lspconfig")
         lsp.pyright.setup({})
+        lsp.tsserver.setup({})
+        lsp.jdtls.setup({})
         lsp.lua_ls.setup(lua_ls_config())
     end
 }
